@@ -48,7 +48,7 @@
     },
     "extra": {
       "router": {},
-      "API_URL": "https://wallet-api-v2r2.onrender.com",
+      "API_URL": "https://rn-wallet-backend-n8z5.onrender.com",
       "eas": {
         "projectId": "e16504c1-b60a-48e4-8066-7cb59f69a137"
       }
