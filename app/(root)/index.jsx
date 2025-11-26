@@ -28,8 +28,10 @@ export default function Page() {
     };
 
     useEffect(() => {
-        loadData();
-    }, [loadData]);
+  if (user?.id) {
+    loadData();
+  }
+}, [user?.id]);
 
     const handleDelete = (id) => {
         Alert.alert("Delete Transaction", "Are you sure you want to delete this transaction?", [
